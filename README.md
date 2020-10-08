@@ -1,10 +1,8 @@
-## Project Name
+## How's Your Aiport?
 
-The name of your project.
+## Description
 
-## Project Description
-
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This app takes the busiest airports in the US and provides details for each of them all in one place. No more having to wonder what restaurants are at the airport, or which airlines fly into a particular airport. A user can also enter their own airport's info under the "Add New Airport" page, which allows for user submission to the API.
 
 ## Wireframes
 
@@ -16,7 +14,40 @@ Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/u
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+This project utilizes Airtable to store initial airport data values such as name, abbreviation, airlines, top flight destinations, restaurants, amenities and review.
+
+Sample data:
+
+```json
+{
+  "records": [
+    {
+      "id": "recLfJGKdtN35rZYx",
+      "fields": {
+        "airport": "Philadelphia International Airport",
+        "abbreviation": "PHL",
+        "review": "Feels like you have a 75 percent chance of losing your luggage when you go through Philly.",
+        "airlines": "Air Canada, Alaska, American, British, Delta, Frontier, JetBlue, Lufthansa, Southwest, Spirit, United",
+        "flights": "Top 10 Flight Destinations: Orlando, Atlanta, Chicago, Dallas-Fort Worth, Charlotte, Boston, Denver, Tampa, Minneapolis, Detroit",
+        "restaurants": "Jack Duggan's, Subway, Chick-fil-A, Starbucks, Sky Asian Bistro, Chickie's & Pete's, Auntie Anne's, Jamba Juice, Sbarro, Smashburger, Tony Luke's, Au ...",
+        "amenities": "Free Wifi, Charging Stations, Animal Relief Areas, Art Exhibitions, Marriott Airport Hotel, Long-term Parking, Short-term Parking, Express Spa Station..."
+      },
+      "createdTime": "2020-10-08T15:47:06.000Z"
+    },
+    {
+      "id": "recwF4Og6qDFWwSmX",
+      "fields": {},
+      "createdTime": "2020-10-08T15:47:06.000Z"
+    },
+    {
+      "id": "recusSlM9lnHRx2tY",
+      "fields": {},
+      "createdTime": "2020-10-08T15:47:06.000Z"
+    }
+  ],
+  "offset": "recusSlM9lnHRx2tY"
+}
+```
 
 ### MVP/PostMVP
 
