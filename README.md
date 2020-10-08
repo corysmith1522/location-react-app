@@ -106,8 +106,16 @@ Sample data:
 
 ### Strengths:
 
+I feel like I have a visual idea in my head of what I want to accomplish. I feel like I have a good understanding of how to make React components functional. I also know myself and know I will work hard and be determined to make this project the best it can be.
+
 ### Weaknesses:
+
+The one concept with React i'll need to brush up on is Link and Route, but this project I feel like will force me to get better with that concept. I also feel like I will be tempted to take more time than I should on CSS, so I need to remind myself to try not to do that as much.
 
 ### Opportunities:
 
+This presents a chance for me to make a really useful app that I feel like is not existent on a large scale, specifically the type of information I am wanting to incorporate into my app. This also gives me a great chance to show my skills with React and to challenge myself with a tougher project.
+
 ### Threats:
+
+Time will definitely be a factor, and I need to really make sure I spend my time over the weekend wisely. I will also need to be mindful that it's ok to get stuck on something and not be afraid to reach out for help when needed.
