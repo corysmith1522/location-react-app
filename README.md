@@ -1,4 +1,4 @@
-## How's Your Aiport?
+## How's Your Airport?
 
 ## Description
 
