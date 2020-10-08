@@ -6,7 +6,7 @@ This app takes the busiest airports in the US and provides details for each of t
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+![Mobile Wireframe](https://github.com/corysmith1522/location-react-app/blob/master/Mobile%20Wireframe.png)
 
 ## Component Hierarchy
 
@@ -49,10 +49,6 @@ Sample data:
 }
 ```
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
-
 #### MVP
 
 _These are examples only. Replace with your own MVP features._
@@ -70,19 +66,15 @@ _These are examples only. Replace with your own Post-MVP features._
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 | Day        | Deliverable                                        | Status     |
 | ---------- | -------------------------------------------------- | ---------- |
 | October 8  | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| October 9  | Project Approval                                   | Incomplete |
-| October 10 | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| October 11 | Pseudocode / actual code                           | Incomplete |
-| October 12 | Initial Clickable Model                            | Incomplete |
-| October 13 | MVP                                                | Incomplete |
-| October 14 | Finish MVP                                         | Incomplete |
+| October 9  | Project Approval/Pseudocode/Set up Components      | Incomplete |
+| October 10 | Make Header, Home, List Components                 | Incomplete |
+| October 11 | Make Create, Airports Components                   | Incomplete |
+| October 12 | Link and Route, Establish all JSX is working       | Incomplete |
+| October 13 | CSS, Media Queries, styling                        | Incomplete |
+| October 14 | Finish MVP, start post-mvp                         | Incomplete |
 | October 15 | Post-MVP                                           | Incomplete |
 | October 16 | Presentations                                      | Incomplete |
 
