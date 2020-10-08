@@ -7,6 +7,7 @@ This app takes the busiest airports in the US and provides details for each of t
 ## Wireframes
 
 ![Mobile Wireframe](https://github.com/corysmith1522/location-react-app/blob/master/Mobile%20Wireframe.png)
+![Desktop Wireframe](https://github.com/corysmith1522/location-react-app/blob/master/Desktop%20Wireframe.png)
 
 ## Component Hierarchy
 
