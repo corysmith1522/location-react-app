@@ -53,44 +53,54 @@ Sample data:
 
 #### MVP
 
-_These are examples only. Replace with your own MVP features._
-
-- Find and use external api
-- Render data on page
-- Allow user to choose favorites
+- Use Link and Route to navigate between the home, airport and create pages
+- Establish working components for the Home page, Airports page, List of Airports, Create Page, Header, and Images
+- Import from Airtable API data on the airports that will be rendered on the pages
+- Make a working create page with form and submit button that allows users to add to the airport Airtable database and render to the working list as well
+- Make three media queries -- app is primarily mobile-based but will also have modifications for desktop and tablet viewing
+- Implement flex CSS design and compile all CSS styles in a global sheet that is well organized
+- Deploy website on Netlify once completed
 
 #### PostMVP
 
-_These are examples only. Replace with your own Post-MVP features._
-
-- Add second API
-- Use local storage to save user favorites
+- Incorporate actual data from an airport API into the app to return different data types to the app
+- Fancy styling for the buttons
+- Add animations for loading all the data onto the page upon user click
 
 ## Project Schedule
 
-| Day        | Deliverable                                        | Status     |
-| ---------- | -------------------------------------------------- | ---------- |
-| October 8  | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| October 9  | Project Approval/Pseudocode/Set up Components      | Incomplete |
-| October 10 | Make Header, Home, List Components                 | Incomplete |
-| October 11 | Make Create, Airports Components                   | Incomplete |
-| October 12 | Link and Route, Establish all JSX is working       | Incomplete |
-| October 13 | CSS, Media Queries, styling                        | Incomplete |
-| October 14 | Finish MVP, start post-mvp                         | Incomplete |
-| October 15 | Post-MVP                                           | Incomplete |
-| October 16 | Presentations                                      | Incomplete |
+| Day        | Deliverable                                                        | Status     |
+| ---------- | ------------------------------------------------------------------ | ---------- |
+| October 8  | Prompt / Wireframes / Component Hierarchy/ Timeframes              | Incomplete |
+| October 9  | Project Approval/Pseudocode/Set up Components/Add data to Airtable | Incomplete |
+| October 10 | Add functions and states to Home, Image and Header components      | Incomplete |
+| October 11 | Add functions and states to Create, Airports & List Components     | Incomplete |
+| October 12 | Link and Route, Establish all JSX is working                       | Incomplete |
+| October 13 | CSS, Media Queries, styling                                        | Incomplete |
+| October 14 | Finish MVP and complete all CSS styling                            | Incomplete |
+| October 15 | Post-MVP - second API, button styling, animations                  | Incomplete |
+| October 16 | Presentations                                                      | Incomplete |
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component        | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form      |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
-| Total            |    H     |      6hrs      |     5hrs      |    5hrs     |
+| Component                     | Priority | Estimated Time | Time Invested | Actual Time |
+| ----------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Pseudocode                    |    L     |      2hrs      |               |             |
+| Set up Components             |    L     |      1hr       |               |             |
+| Enter Data into Airtable      |    M     |      3hrs      |               |             |
+| Home Page Component           |    H     |      3hrs      |               |             |
+| Header Component              |    M     |      3hrs      |               |             |
+| Images Component              |    M     |      3hrs      |               |             |
+| Airports Component            |    H     |      3hrs      |               |             |
+| List Component                |    H     |      3hrs      |               |             |
+| Create Component              |    H     |      3hrs      |               |             |
+| Link and Route                |    H     |      3hrs      |               |             |
+| JSX Testing and Functionality |    H     |      3hrs      |               |             |
+| Establish global CSS styling  |    M     |      3hrs      |               |             |
+| Make desktop media query      |    M     |      3hrs      |               |             |
+| CSS debugging                 |    H     |      3hrs      |               |             |
+| Post-MVP                      |    L     |      3hrs      |               |             |
+| Total                         |          |     42hrs      |               |             |
 
 ## SWOT Analysis
 
