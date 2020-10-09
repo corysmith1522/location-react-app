@@ -87,7 +87,7 @@ Sample data:
 | -------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Pseudocode                                   |    L     |      2hrs      |               |             |
 | Set up Components                            |    L     |      1hr       |               |             |
-| Enter Data into Airtable                     |    M     |      3hrs      |               |             |
+| Enter Data into Airtable                     |    M     |      3hrs      |     5hrs      |    5hrs     |
 | Home Page Component - JSX, functions, states |    H     |      3hrs      |               |             |
 | Header Component - JSX, functions, states    |    M     |      3hrs      |               |             |
 | Images Component - JSX, functions, states    |    M     |      3hrs      |               |             |
