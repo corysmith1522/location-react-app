@@ -2,7 +2,7 @@
 
 ## Description
 
-This app takes the busiest airports in the US and provides details for each of them all in one place. No more having to wonder what restaurants are at the airport, or which airlines fly into a particular airport. A user can also enter their own airport's info under the "Add New Airport" page, which allows for user submission to the API.
+This app takes the busiest airports in the US and provides details for each of them all in one place. The US has a bunch of busy airports, and sometimes their websites are not as nice to navigate, so this app will be a place to house easy-to-access information. No more having to wonder what restaurants are at the airport, or which airlines fly into a particular airport. A user can also enter their own airport's info under the "Add New Airport" page, which allows for user submission to the API.
 
 ## Wireframes
 
@@ -83,24 +83,24 @@ Sample data:
 
 ## Timeframes
 
-| Component                     | Priority | Estimated Time | Time Invested | Actual Time |
-| ----------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Pseudocode                    |    L     |      2hrs      |               |             |
-| Set up Components             |    L     |      1hr       |               |             |
-| Enter Data into Airtable      |    M     |      3hrs      |               |             |
-| Home Page Component           |    H     |      3hrs      |               |             |
-| Header Component              |    M     |      3hrs      |               |             |
-| Images Component              |    M     |      3hrs      |               |             |
-| Airports Component            |    H     |      3hrs      |               |             |
-| List Component                |    H     |      3hrs      |               |             |
-| Create Component              |    H     |      3hrs      |               |             |
-| Link and Route                |    H     |      3hrs      |               |             |
-| JSX Testing and Functionality |    H     |      3hrs      |               |             |
-| Establish global CSS styling  |    M     |      3hrs      |               |             |
-| Make desktop media query      |    M     |      3hrs      |               |             |
-| CSS debugging                 |    H     |      3hrs      |               |             |
-| Post-MVP                      |    L     |      3hrs      |               |             |
-| Total                         |          |     42hrs      |               |             |
+| Component                                    | Priority | Estimated Time | Time Invested | Actual Time |
+| -------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Pseudocode                                   |    L     |      2hrs      |               |             |
+| Set up Components                            |    L     |      1hr       |               |             |
+| Enter Data into Airtable                     |    M     |      3hrs      |               |             |
+| Home Page Component - JSX, functions, states |    H     |      3hrs      |               |             |
+| Header Component - JSX, functions, states    |    M     |      3hrs      |               |             |
+| Images Component - JSX, functions, states    |    M     |      3hrs      |               |             |
+| Airports Component - JSX, functions, states  |    H     |      3hrs      |               |             |
+| List Component - JSX, functions, states      |    H     |      3hrs      |               |             |
+| Create Component - JSX, functions, states    |    H     |      3hrs      |               |             |
+| Link and Route                               |    H     |      3hrs      |               |             |
+| JSX Testing and Functionality                |    H     |      3hrs      |               |             |
+| Establish global CSS styling                 |    M     |      3hrs      |               |             |
+| Make desktop media query                     |    M     |      3hrs      |               |             |
+| CSS debugging                                |    H     |      3hrs      |               |             |
+| Post-MVP                                     |    L     |      3hrs      |               |             |
+| Total                                        |          |     42hrs      |               |             |
 
 ## SWOT Analysis
 
