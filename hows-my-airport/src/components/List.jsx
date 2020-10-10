@@ -17,6 +17,9 @@ function List() {
     getAirports();
   }, []);
 
+  if (!airports) {
+    return <h4>Loading...</h4>
+  }
 
   return (
     <div>
