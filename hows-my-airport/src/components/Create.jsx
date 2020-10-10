@@ -28,7 +28,15 @@ function Create(props) {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
         },
-      });
+    });
+    setName('');
+    setAbbreviation('');
+    setAirlines('');
+    setDestinations('');
+    setRestaurants('');
+    setAmenities('');
+    setReview('');
+    setWebsite('');
   }
   
   
