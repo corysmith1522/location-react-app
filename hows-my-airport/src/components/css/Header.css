@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Courgette", cursive;
+  background-color: #28334a;
+  color: #ffffff;
+  font-stretch: expanded;
+  margin: 0 auto;
+  width: 100vh;
+  height: 12vh;
+  border-style: groove;
+  border-color: #ffa500;
+  font-size: 2.25em;
+}

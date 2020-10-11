@@ -26,7 +26,7 @@ class Details extends Component {
     getAirports();
     
     return (
-      <p>{airport.fields.airlines}</p>
+      <p>{props.airport.fields.airlines}</p>
     )
   }
 
