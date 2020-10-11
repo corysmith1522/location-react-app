@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 
-function List() {
+
+function List(props) {
   const [airports, setAirports] = useState([]);
+  
 
   useEffect(() => {
     const getAirports = async () => {
@@ -21,7 +23,7 @@ function List() {
   // upon this action, the user will be able to see the rest of the API data shown for just their selected airport
   // another button will appear that says "Read Less"
   // when "Read Less" is clicked, the information will disappear, and the state will return to the original useEffect
-
+  
   if (!airports) {
     return <h4>Loading...</h4>
   }
@@ -31,11 +33,7 @@ function List() {
       {airports.map((airport) => (
         <div>
           <p>{airport.fields.airport} ({airport.fields.abbreviation})</p>
-          <button /*{onClick={(e) => {
-            if (e === true) {
-              <p>{airport.fields.airlines}</p>;
-            }
-          }}*/>Read More</button>
+          <button>READ MORE</button>
         </div>
         
       ))}

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 
-function Create(props) {
+function Create() {
   const [name, setName] = useState('');
   const [abbreviation, setAbbreviation] = useState('');
   const [airlines, setAirlines] = useState('');
@@ -65,7 +65,7 @@ function Create(props) {
         <input type="text" value={review} onChange={(e) => setReview(e.target.value)}/>
         <br />
         <label htmlFor="">Website</label>
-        <input type="text" value={website} onChange={(e) => setWebsite(e.target.value)}/>
+        <input type="url" value={website} onChange={(e) => setWebsite(e.target.value)}/>
         <br />
         <button type="submit">SUBMIT</button>
       </form>
