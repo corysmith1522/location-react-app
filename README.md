@@ -71,9 +71,9 @@ Sample data:
 
 | Day        | Deliverable                                                        | Status     |
 | ---------- | ------------------------------------------------------------------ | ---------- |
-| October 8  | Prompt / Wireframes / Component Hierarchy/ Timeframes              | Incomplete |
-| October 9  | Project Approval/Pseudocode/Set up Components/Add data to Airtable | Incomplete |
-| October 10 | Add functions and states to Home, Image and Header components      | Incomplete |
+| October 8  | Prompt / Wireframes / Component Hierarchy/ Timeframes              | Complete   |
+| October 9  | Project Approval/Pseudocode/Set up Components/Add data to Airtable | Complete   |
+| October 10 | Add functions and states to Home, Image and Header components      | Complete   |
 | October 11 | Add functions and states to Create, Airports & List Components     | Incomplete |
 | October 12 | Link and Route, Establish all JSX is working                       | Incomplete |
 | October 13 | CSS, Media Queries, styling                                        | Incomplete |
@@ -85,22 +85,22 @@ Sample data:
 
 | Component                                    | Priority | Estimated Time | Time Invested | Actual Time |
 | -------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Pseudocode                                   |    L     |      2hrs      |               |             |
-| Set up Components                            |    L     |      1hr       |               |             |
-| Enter Data into Airtable                     |    M     |      3hrs      |     5hrs      |    5hrs     |
-| Home Page Component - JSX, functions, states |    H     |      3hrs      |               |             |
-| Header Component - JSX, functions, states    |    M     |      3hrs      |               |             |
-| Images Component - JSX, functions, states    |    M     |      3hrs      |               |             |
-| Airports Component - JSX, functions, states  |    H     |      3hrs      |               |             |
-| List Component - JSX, functions, states      |    H     |      3hrs      |               |             |
-| Create Component - JSX, functions, states    |    H     |      3hrs      |               |             |
+| Pseudocode                                   |    L     |      2hrs      |     3hrs      |    3hrs     |
+| Set up Components                            |    L     |      1hr       |      30m      |     30m     |
+| Enter Data into Airtable                     |    M     |      3hrs      |     6hrs      |    6hrs     |
+| Home Page Component - JSX, functions, states |    H     |      3hrs      |      1hr      |     1hr     |
+| Header Component - JSX, functions, states    |    M     |      3hrs      |      30m      |     30m     |
+| Images Component - JSX, functions, states    |    M     |      3hrs      |      1hr      |     1hr     |
+| Airports Component - JSX, functions, states  |    H     |      3hrs      |     2hrs      |    2hrs     |
+| List Component - JSX, functions, states      |    H     |      3hrs      |     7+hrs     |    7+hrs    |
+| Create Component - JSX, functions, states    |    H     |      3hrs      |     4hrs      |    4hrs     |
 | Link and Route                               |    H     |      3hrs      |               |             |
 | JSX Testing and Functionality                |    H     |      3hrs      |               |             |
 | Establish global CSS styling                 |    M     |      3hrs      |               |             |
 | Make desktop media query                     |    M     |      3hrs      |               |             |
 | CSS debugging                                |    H     |      3hrs      |               |             |
 | Post-MVP                                     |    L     |      3hrs      |               |             |
-| Total                                        |          |     42hrs      |               |             |
+| Total                                        |          |     42hrs      |     27hrs     |    27hrs    |
 
 ## SWOT Analysis
 
