@@ -1,4 +1,5 @@
 import React from 'react';
+import "./css/Image.css"
 
 function Images() {
   const airplaneIMG = 'https://bit.ly/30QFsAr'

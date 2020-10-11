@@ -43,28 +43,28 @@ function Create() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="">Airport Name</label>
+        <label htmlFor="airport">Airport Name</label>
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
         <br />
-        <label htmlFor="">IATA Abbreviation</label>
+        <label htmlFor="abbreviation">IATA Abbreviation</label>
         <input type="text" value={abbreviation} onChange={(e) => setAbbreviation(e.target.value)}/>
         <br />
-        <label htmlFor="">Airlines</label>
+        <label htmlFor="airlines">Airlines</label>
         <input type="text" value={airlines} onChange={(e) => setAirlines(e.target.value)}/>
         <br />
-        <label htmlFor="">Top 10 Flight Destinations</label>
+        <label htmlFor="flights">Top 10 Flight Destinations</label>
         <input type="text" value={destinations} onChange={(e) => setDestinations(e.target.value)}/>
         <br />
-        <label htmlFor="">Restaurants</label>
+        <label htmlFor="restaurants">Restaurants</label>
         <input type="text" value={restaurants} onChange={(e) => setRestaurants(e.target.value)}/>
         <br />
-        <label htmlFor="">Amenities</label>
+        <label htmlFor="amenities">Amenities</label>
         <input type="text" value={amenities} onChange={(e) => setAmenities(e.target.value)}/>
         <br />
-        <label htmlFor="">Review</label>
+        <label htmlFor="review">Review</label>
         <input type="text" value={review} onChange={(e) => setReview(e.target.value)}/>
         <br />
-        <label htmlFor="">Website</label>
+        <label htmlFor="website">Website</label>
         <input type="url" value={website} onChange={(e) => setWebsite(e.target.value)}/>
         <br />
         <button type="submit">SUBMIT</button>

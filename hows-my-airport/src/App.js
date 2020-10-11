@@ -13,9 +13,15 @@ function App() {
         <Header />
       </header>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/airports">Airports</Link>
-        <Link to="/create">Add My Airport</Link>
+        <Link to="/" className="link">
+          Home
+        </Link>
+        <Link to="/airports" className="link">
+          Airports
+        </Link>
+        <Link to="/create" className="link">
+          Add My Airport
+        </Link>
       </nav>
       <Route exact path="/">
         <Home />

@@ -33,6 +33,8 @@ function List(props) {
       {airports.map((airport) => (
         <div>
           <p>{airport.fields.airport} ({airport.fields.abbreviation})</p>
+          <a href={airport.fields.website}>Website</a>
+          <br />
           <button>READ MORE</button>
         </div>
         
