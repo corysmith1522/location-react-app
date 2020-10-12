@@ -16,12 +16,11 @@ class Details extends Component {
   details() {
     const getAirports = async () => {
       const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/airports`;
-      const response = await axios.get(airtableURL, {
+      await axios.get(airtableURL, {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
         },
       });
-      setAirports(response.data.records);
     };
     getAirports();
     

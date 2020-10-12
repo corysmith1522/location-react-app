@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios";
 
 
-function List(props) {
+function List() {
   const [airports, setAirports] = useState([]);
   
 

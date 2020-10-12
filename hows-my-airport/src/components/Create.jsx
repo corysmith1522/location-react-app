@@ -5,7 +5,7 @@ function Create() {
   const [name, setName] = useState('');
   const [abbreviation, setAbbreviation] = useState('');
   const [airlines, setAirlines] = useState('');
-  const [destinations, setDestinations] = useState('');
+  const [flights, setFlights] = useState('');
   const [restaurants, setRestaurants] = useState('');
   const [amenities, setAmenities] = useState('');
   const [review, setReview] = useState('');
@@ -17,7 +17,7 @@ function Create() {
       name,
       abbreviation,
       airlines,
-      destinations,
+      flights,
       restaurants,
       amenities,
       review,
@@ -32,7 +32,7 @@ function Create() {
     setName('');
     setAbbreviation('');
     setAirlines('');
-    setDestinations('');
+    setFlights('');
     setRestaurants('');
     setAmenities('');
     setReview('');
@@ -53,7 +53,7 @@ function Create() {
         <input type="text" value={airlines} onChange={(e) => setAirlines(e.target.value)}/>
         <br />
         <label htmlFor="flights">Top 10 Flight Destinations: </label>
-        <input type="text" value={destinations} onChange={(e) => setDestinations(e.target.value)}/>
+        <input type="text" value={flights} onChange={(e) => setFlights(e.target.value)}/>
         <br />
         <label htmlFor="restaurants">Restaurants: </label>
         <input type="text" value={restaurants} onChange={(e) => setRestaurants(e.target.value)}/>
