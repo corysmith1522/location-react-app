@@ -1,29 +1,25 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class Details extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      clicked: true
-    }
+function Details (props) {
+  const [clicked, setClicked] = useState(false)
+
+  const toggleData = () => {
+    clicked ? setClicked(false) : setClicked(true);
   }
-
-  showInfo() {
-    this.setState({ clicked: !this.state.clicked })
-  }
-
-  render(props) {
-    return (
+  return (
       <div>
-        <p>{props.airport.fields.airlines}</p>
-        <p>{props.airport.fields.flights}</p>
-        <p>{props.airport.fields.restaurants}</p>
-        <p>{props.airport.fields.amenities}</p>
-        <p>{props.airport.fields.review}</p>
-        <button onClick={() => this.showInfo()}>READ LESS</button>
+        <button onClick={() => toggleData()}>READ MORE</button>
+      {clicked ?
+        <div>
+        <p>Airlines: {props.airport.fields.airlines}</p>
+        <p>Top 10 Flight Destinations: {props.airport.fields.flights}</p>
+        <p>Food Options: {props.airport.fields.restaurants}</p>
+        <p>Amenities: {props.airport.fields.amenities}</p>
+        <p>Review: {props.airport.fields.review}</p>
+        <button onClick={() => toggleData()}>READ LESS</button>
+      </div> : null}
       </div>
     )
-  }
 }
 
 export default Details
