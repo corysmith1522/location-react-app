@@ -31,7 +31,8 @@ class Details extends Component {
 
   render() {
     return (
-      <button onClick={() => this.showInfo() ? this.details() : null}>READ MORE</button>
+      <button onClick={() => this.showInfo() && this.details()}>READ MORE</button>
+      
     )
   }
 }

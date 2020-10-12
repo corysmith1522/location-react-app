@@ -9,7 +9,6 @@ function Create() {
   const [restaurants, setRestaurants] = useState('');
   const [amenities, setAmenities] = useState('');
   const [review, setReview] = useState('');
-  const [website, setWebsite] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -21,7 +20,6 @@ function Create() {
       restaurants,
       amenities,
       review,
-      website,
     };
     const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/airports`;
     await axios.post(airtableURL, { fields }, {
@@ -36,7 +34,6 @@ function Create() {
     setRestaurants('');
     setAmenities('');
     setReview('');
-    setWebsite('');
   }
   
   
@@ -63,9 +60,6 @@ function Create() {
         <br />
         <label htmlFor="review">Review: </label>
         <input type="text" value={review} onChange={(e) => setReview(e.target.value)}/>
-        <br />
-        <label htmlFor="website">Website: </label>
-        <input type="text" value={website} onChange={(e) => setWebsite(e.target.value)}/>
         <br />
         <button type="submit">SUBMIT</button>
       </form>

@@ -32,10 +32,8 @@ function List() {
     <div>
       {airports.map((airport) => (
         <div>
-          <p>{airport.fields.airport} ({airport.fields.abbreviation})</p>
-          <a href={airport.fields.website}>Website</a>
-          <br />
-          <button>READ MORE</button>
+          <p key={airport.id}>{airport.fields.airport} ({airport.fields.abbreviation}) <a href={airport.fields.website}>Website</a></p>
+          <button onClick={() => console.log("clicked!")}>READ MORE</button>
         </div>
         
       ))}
