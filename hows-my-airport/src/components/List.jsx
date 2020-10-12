@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
-import Details from "./Details"
+//import Details from "./Details"
 
 
 function List() {
   const [airports, setAirports] = useState([]);
+  const [clicked, setClicked] = useState(false);
   
 
   useEffect(() => {
@@ -29,17 +30,32 @@ function List() {
     return <h4>Loading...</h4>
   }
 
+  const toggleData = () => {
+    clicked ? setClicked(false) : setClicked(true);
+  }
+
   return (
     <div>
       {airports.map((airport) => (
         <div>
           <p key={airport.id}>{airport.fields.airport} ({airport.fields.abbreviation}) <a href={airport.fields.website}>Website</a></p>
-          <button onClick={() => (<Details airport={airport} />)}>READ MORE</button>
+          <button onClick={() => toggleData()}>READ MORE</button>
+          {clicked ? 
+            <div>
+              <p>Airlines: {airport.fields.airlines}</p>
+              <p>Top 10 Flight Destinations: {airport.fields.flights}</p>
+              <p>Food Options: {airport.fields.restaurants}</p>
+              <p>Amenities: {airport.fields.amenities}</p>
+              <p>Review: {airport.fields.review}</p>
+              <button onClick={() => toggleData()}>READ LESS</button>
+            </div>
+            : null}
         </div>
         
       ))}
     </div>
   )
 }
+//(<Details airport={airport} />)
 
 export default List;
