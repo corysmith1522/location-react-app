@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
+import Details from "./Details"
 
 
 function List() {
@@ -33,7 +34,7 @@ function List() {
       {airports.map((airport) => (
         <div>
           <p key={airport.id}>{airport.fields.airport} ({airport.fields.abbreviation}) <a href={airport.fields.website}>Website</a></p>
-          <button onClick={() => console.log("clicked!")}>READ MORE</button>
+          <button onClick={() => (<Details airport={airport} />)}>READ MORE</button>
         </div>
         
       ))}

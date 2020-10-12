@@ -1,38 +1,27 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 class Details extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      clicked: false
+      clicked: true
     }
   }
 
   showInfo() {
-    this.setState({ clicked: !this.state.clicked})
+    this.setState({ clicked: !this.state.clicked })
   }
 
-  details() {
-    const getAirports = async () => {
-      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/airports`;
-      await axios.get(airtableURL, {
-        headers: {
-          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
-        },
-      });
-    };
-    getAirports();
-    
+  render(props) {
     return (
-      <p>{props.airport.fields.airlines}</p>
-    )
-  }
-
-  render() {
-    return (
-      <button onClick={() => this.showInfo() && this.details()}>READ MORE</button>
-      
+      <div>
+        <p>{props.airport.fields.airlines}</p>
+        <p>{props.airport.fields.flights}</p>
+        <p>{props.airport.fields.restaurants}</p>
+        <p>{props.airport.fields.amenities}</p>
+        <p>{props.airport.fields.review}</p>
+        <button onClick={() => this.showInfo()}>READ LESS</button>
+      </div>
     )
   }
 }
