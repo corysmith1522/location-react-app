@@ -52,10 +52,10 @@ function List() {
             : null}
         </div>
         
-      ))}
+      )).filter(airport => airport.id === airports.id)}
     </div>
   )
 }
-//(<Details airport={airport} />)
+// .filter(airport => airport.id === airports.id).map(filteredAirport => (everything from lines 43-52))
 
 export default List;
