@@ -13,6 +13,13 @@ img:hover {
 }
 
 .airplane {
-  width: 28%;
-  height: auto;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .airplane {
+    display: inline-block;
+    width: 28%;
+    height: auto;
+  }
 }
