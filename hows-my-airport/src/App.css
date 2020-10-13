@@ -2,16 +2,31 @@
   text-align: center;
 }
 
+.App::before {
+  content: "";
+  background-image: url("https://bit.ly/3nOjA2b");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.25;
+}
+
 .App {
   background-color: #f0c0a6;
+  position: relative;
 }
 
 nav {
   padding: 10px;
   margin: 10px;
+  position: relative;
 }
 
 .link {
+  position: relative;
   margin: 10px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.3em;
@@ -20,6 +35,7 @@ nav {
 }
 
 .link:hover {
+  position: relative;
   color: #ffffff;
   text-shadow: 2px 1px #000000;
 }

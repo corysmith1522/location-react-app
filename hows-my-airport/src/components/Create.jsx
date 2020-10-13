@@ -43,7 +43,7 @@ function Create() {
   
   
   return (
-    <div>
+    <div className="create-grid">
       <form onSubmit={handleSubmit}>
         <label htmlFor="airport">Airport Name: </label>
         <input type="text" value={airport} onChange={(e) => setAirport(e.target.value)} />
@@ -52,19 +52,19 @@ function Create() {
         <input type="text" value={abbreviation} onChange={(e) => setAbbreviation(e.target.value)}/>
         <br />
         <label htmlFor="airlines">Airlines: </label>
-        <input type="text" value={airlines} onChange={(e) => setAirlines(e.target.value)}/>
+        <input type="text" className="big-text" value={airlines} onChange={(e) => setAirlines(e.target.value)}/>
         <br />
         <label htmlFor="flights">Top 10 Flight Destinations: </label>
-        <input type="text" value={flights} onChange={(e) => setFlights(e.target.value)}/>
+        <input type="text" className="big-text" value={flights} onChange={(e) => setFlights(e.target.value)}/>
         <br />
         <label htmlFor="restaurants">Restaurants: </label>
-        <input type="text" value={restaurants} onChange={(e) => setRestaurants(e.target.value)}/>
+        <input type="text" className="big-text" value={restaurants} onChange={(e) => setRestaurants(e.target.value)}/>
         <br />
         <label htmlFor="amenities">Amenities: </label>
-        <input type="text" value={amenities} onChange={(e) => setAmenities(e.target.value)}/>
+        <input type="text" className="big-text" value={amenities} onChange={(e) => setAmenities(e.target.value)}/>
         <br />
         <label htmlFor="review">Review: </label>
-        <input type="text" value={review} onChange={(e) => setReview(e.target.value)}/>
+        <input type="text" className="big-text" value={review} onChange={(e) => setReview(e.target.value)}/>
         <br />
         <label htmlFor="website">Website: </label>
         <input type="text" value={website} onChange={(e) => setWebsite(e.target.value)}/>

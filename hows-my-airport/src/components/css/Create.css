@@ -1,3 +1,57 @@
+div,
+form,
+label,
+input,
+button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-grid {
+  position: relative;
+  display: grid;
+  height: 100%;
+  width: 90vw;
+  margin: 10px auto;
+  grid-gap: 5px;
+  grid-template-areas:
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "button button";
+}
+
 label {
+  grid-area: label;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin: 2px;
+}
+
+input {
+  grid-area: input;
+  font-family: "PT Sans", sans-serif;
+  margin: 3px;
+  width: 150px;
+}
+
+.big-text {
+  height: 50px;
+}
+
+button {
+  grid-area: button;
   font-family: "PT Sans Narrow", sans-serif;
 }

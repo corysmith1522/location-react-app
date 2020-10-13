@@ -15,11 +15,15 @@ function Details (props) {
       {clicked ?
         <div className="fullDetails">
           <p className="categories">Airlines</p>
-          {props.airport.fields.airlines}
-        <p>Top 10 Flight Destinations: {props.airport.fields.flights}</p>
-        <p>Food Options: {props.airport.fields.restaurants}</p>
-        <p>Amenities: {props.airport.fields.amenities}</p>
-        <p>Review: {props.airport.fields.review}</p>
+          <div className="props">{props.airport.fields.airlines}</div>
+          <p className="categories">Top 10 Flight Destinations</p>
+          <div className="props">{props.airport.fields.flights}</div>
+          <p className="categories">Food Options</p>
+          <div className="props">{props.airport.fields.restaurants}</div>
+          <p className="categories">Amenities</p>
+          <div className="props">{props.airport.fields.amenities}</div>
+          <p className="categories">Review</p>
+          <div className="props">{props.airport.fields.review}</div>
         <button onClick={() => toggleData()} className="readDisplay">READ LESS</button>
       </div> : null}
       </div>
