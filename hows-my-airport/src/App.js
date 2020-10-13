@@ -17,10 +17,24 @@ function App() {
           Home
         </Link>
         <Link to="/airports" className="link">
-          Airports <span className="emoji">✈️</span>
+          Airports{" "}
+          <span
+            role="img"
+            aria-label="jsx-a11y/accessible-emoji"
+            className="emoji"
+          >
+            ✈️
+          </span>
         </Link>
         <Link to="/create" className="link">
-          Add My Airport <span className="emoji">🛩</span>
+          Add My Airport{" "}
+          <span
+            role="img"
+            aria-label="jsx-a11y/accessible-emoji"
+            className="emoji"
+          >
+            🛩
+          </span>
         </Link>
       </nav>
       <Route exact path="/">

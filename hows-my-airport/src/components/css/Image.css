@@ -1,5 +1,18 @@
 img {
-  width: 50%;
+  display: inline-block;
+  width: 30%;
   height: auto;
-  padding: 20px;
+  margin: 20px;
+  transition: transform 0.2s;
+  border-style: groove;
+  border-color: #ffa500;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.airplane {
+  width: 28%;
+  height: auto;
 }

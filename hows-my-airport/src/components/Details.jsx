@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./css/Details.css"
 
 function Details (props) {
   const [clicked, setClicked] = useState(false)
@@ -8,7 +9,9 @@ function Details (props) {
   }
   return (
       <div>
-        <button onClick={() => toggleData()}>READ MORE</button>
+      <button
+        onClick={() => toggleData()}
+        className= {clicked ? "readHide" : "readDisplay"}>READ MORE</button>
       {clicked ?
         <div>
         <p>Airlines: {props.airport.fields.airlines}</p>
