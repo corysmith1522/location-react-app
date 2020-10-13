@@ -74,8 +74,8 @@ Sample data:
 | October 8  | Prompt / Wireframes / Component Hierarchy/ Timeframes              | Complete   |
 | October 9  | Project Approval/Pseudocode/Set up Components/Add data to Airtable | Complete   |
 | October 10 | Add functions and states to Home, Image and Header components      | Complete   |
-| October 11 | Add functions and states to Create, Airports & List Components     | Incomplete |
-| October 12 | Link and Route, Establish all JSX is working                       | Incomplete |
+| October 11 | Add functions and states to Create, Airports & List Components     | Complete   |
+| October 12 | Link and Route, Establish all JSX is working                       | Complete   |
 | October 13 | CSS, Media Queries, styling                                        | Incomplete |
 | October 14 | Finish MVP and complete all CSS styling                            | Incomplete |
 | October 15 | Post-MVP - second API, button styling, animations                  | Incomplete |
@@ -94,13 +94,13 @@ Sample data:
 | Airports Component - JSX, functions, states  |    H     |      3hrs      |     2hrs      |    2hrs     |
 | List Component - JSX, functions, states      |    H     |      3hrs      |     7+hrs     |    7+hrs    |
 | Create Component - JSX, functions, states    |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Link and Route                               |    H     |      3hrs      |               |             |
-| JSX Testing and Functionality                |    H     |      3hrs      |               |             |
+| Link and Route                               |    H     |      3hrs      |      1hr      |     1hr     |
+| JSX Testing and Functionality                |    H     |      3hrs      |     6hrs      |    6hrs     |
 | Establish global CSS styling                 |    M     |      3hrs      |               |             |
 | Make desktop media query                     |    M     |      3hrs      |               |             |
 | CSS debugging                                |    H     |      3hrs      |               |             |
 | Post-MVP                                     |    L     |      3hrs      |               |             |
-| Total                                        |          |     42hrs      |     27hrs     |    27hrs    |
+| Total                                        |          |     42hrs      |     34hrs     |    34hrs    |
 
 ## SWOT Analysis
 
