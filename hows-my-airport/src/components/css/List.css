@@ -1,0 +1,18 @@
+.base-info {
+  font-family: "PT Sans Narrow", sans-serif;
+  margin: 10px;
+  font-size: 120%;
+  text-shadow: 2px 1px #e3d8d8;
+}
+
+.website {
+  display: block;
+  margin: 5px;
+  text-decoration: none;
+  text-shadow: 2px 1px #e3d8d8;
+}
+
+.website:hover {
+  color: #ffffff;
+  text-shadow: 2px 1px #000000;
+}

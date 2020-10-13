@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import Details from "./Details"
+import "./css/List.css"
 
 
 function List() {
@@ -35,7 +36,7 @@ function List() {
     <div>
       {airports.map((airport) => (
         <div>
-          <p key={airport.id}>{airport.fields.airport} ({airport.fields.abbreviation}) <a href={airport.fields.website}>Website</a></p>
+          <p key={airport.id} className="base-info">{airport.fields.airport} ({airport.fields.abbreviation}) <a href={airport.fields.website} className="website">Website</a></p>
           <Details airport={airport} />
         </div>  
       ))}

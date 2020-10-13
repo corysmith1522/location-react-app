@@ -3,7 +3,7 @@
 }
 
 .App {
-  background-color: #f5f2d0;
+  background-color: #f0c0a6;
 }
 
 nav {
@@ -15,4 +15,16 @@ nav {
   margin: 10px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.3em;
+  text-shadow: 2px 1px #e3d8d8;
+  text-decoration: none;
+  transition: transform 0.5s;
+}
+
+.link:hover {
+  color: #ffffff;
+  text-shadow: 2px 1px #000000;
+  transform: scale(1.5);
+}
+
+.emoji {
 }

@@ -8,9 +8,9 @@ h1 {
   color: #ffffff;
   font-stretch: expanded;
   margin: 0 auto;
-  width: 100vh;
-  height: 12vh;
+  width: 100%;
+  height: auto;
   border-style: groove;
   border-color: #ffa500;
-  font-size: 2.25em;
+  font-size: 28px;
 }
