@@ -1,5 +1,4 @@
 img {
-  display: inline-block;
   width: 30%;
   height: auto;
   margin: 20px;
@@ -10,6 +9,10 @@ img {
 
 img:hover {
   transform: scale(1.1);
+}
+
+.images {
+  display: inline-block;
 }
 
 .airplane {
