@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-.App::before {
+body::before {
   content: "";
   background-image: url("https://bit.ly/3nOjA2b");
-  background-size: cover;
+  background-size: auto;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -14,7 +14,7 @@
   opacity: 0.25;
 }
 
-.App {
+body {
   background-color: #f0c0a6;
   position: relative;
 }
