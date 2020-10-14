@@ -33,14 +33,17 @@ function List() {
   }
 
   return (
-    <div>
+    <div className="row">
+      <div className="column">
       {airports.map((airport) => (
         <div key={airport.id}>
           <p className="base-info">{airport.fields.airport} ({airport.fields.abbreviation}) <a href={airport.fields.website} className="website">Website</a></p>
-          <Details airport={airport} />
+          <div className="column">
+            <Details airport={airport} />
+          </div>
         </div>  
       ))}
-      
+      </div>
     </div>
   )
 }
