@@ -48,6 +48,8 @@ input {
 
 .big-text {
   height: 50px;
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
 }
 
 button {

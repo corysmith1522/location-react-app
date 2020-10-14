@@ -50,7 +50,11 @@ function App() {
         <h4>
           Information courtesy of{" "}
           <a href="https://www.bts.gov/" className="footer-link">
-            Bureau of Transportation Statistics
+            BTS
+          </a>{" "}
+          and{" "}
+          <a href="https://www.faa.gov/" className="footer-link">
+            FAA
           </a>
         </h4>
       </footer>

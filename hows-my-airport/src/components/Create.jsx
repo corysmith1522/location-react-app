@@ -52,19 +52,19 @@ function Create() {
         <input type="text" value={abbreviation} onChange={(e) => setAbbreviation(e.target.value)}/>
         <br />
         <label htmlFor="airlines">Airlines: </label>
-        <input type="text" className="big-text" value={airlines} onChange={(e) => setAirlines(e.target.value)}/>
+        <textarea className="big-text" rows="10" cols="20" value={airlines} onChange={(e) => setAirlines(e.target.value)}/>
         <br />
         <label htmlFor="flights">Top 10 Flight Destinations: </label>
-        <input type="text" className="big-text" value={flights} onChange={(e) => setFlights(e.target.value)}/>
+        <textarea className="big-text" rows="10" cols="20" value={flights} onChange={(e) => setFlights(e.target.value)}/>
         <br />
         <label htmlFor="restaurants">Restaurants: </label>
-        <input type="text" className="big-text" value={restaurants} onChange={(e) => setRestaurants(e.target.value)}/>
+        <textarea className="big-text" rows="10" cols="20" value={restaurants} onChange={(e) => setRestaurants(e.target.value)}/>
         <br />
         <label htmlFor="amenities">Amenities: </label>
-        <input type="text" className="big-text" value={amenities} onChange={(e) => setAmenities(e.target.value)}/>
+        <textarea className="big-text" rows="10" cols="20" value={amenities} onChange={(e) => setAmenities(e.target.value)}/>
         <br />
         <label htmlFor="review">Review: </label>
-        <input type="text" className="big-text" value={review} onChange={(e) => setReview(e.target.value)}/>
+        <textarea className="big-text" rows="10" cols="20" value={review} onChange={(e) => setReview(e.target.value)}/>
         <br />
         <label htmlFor="website">Website: </label>
         <input type="text" value={website} onChange={(e) => setWebsite(e.target.value)}/>
