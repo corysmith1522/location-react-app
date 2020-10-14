@@ -78,8 +78,8 @@ Sample data:
 | October 10 | Add functions and states to Home, Image and Header components      | Complete   |
 | October 11 | Add functions and states to Create, Airports & List Components     | Complete   |
 | October 12 | Link and Route, Establish all JSX is working                       | Complete   |
-| October 13 | CSS, Media Queries, styling                                        | Incomplete |
-| October 14 | Finish MVP and complete all CSS styling                            | Incomplete |
+| October 13 | CSS, Media Queries, styling                                        | Complete   |
+| October 14 | Finish MVP and complete all CSS styling                            | Complete   |
 | October 15 | Post-MVP - second API, button styling, animations                  | Incomplete |
 | October 16 | Presentations                                                      | Incomplete |
 
@@ -98,11 +98,11 @@ Sample data:
 | Create Component - JSX, functions, states    |    H     |      3hrs      |     4hrs      |    4hrs     |
 | Link and Route                               |    H     |      3hrs      |      1hr      |     1hr     |
 | JSX Testing and Functionality                |    H     |      3hrs      |     6hrs      |    6hrs     |
-| Establish global CSS styling                 |    M     |      3hrs      |               |             |
-| Make desktop media query                     |    M     |      3hrs      |               |             |
-| CSS debugging                                |    H     |      3hrs      |               |             |
+| Establish global CSS styling                 |    M     |      3hrs      |     6hrs      |    6hrs     |
+| Make desktop media query                     |    M     |      3hrs      |     2hrs      |    2hrs     |
+| CSS debugging                                |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Post-MVP                                     |    L     |      3hrs      |               |             |
-| Total                                        |          |     42hrs      |     34hrs     |    34hrs    |
+| Total                                        |          |     42hrs      |     45hrs     |    45hrs    |
 
 ## SWOT Analysis
 
