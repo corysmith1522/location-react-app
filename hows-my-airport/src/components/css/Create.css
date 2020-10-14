@@ -43,8 +43,7 @@ label {
 input {
   grid-area: input;
   font-family: "PT Sans", sans-serif;
-  margin: 3px;
-  width: 150px;
+  text-align: left;
 }
 
 .big-text {
