@@ -19,18 +19,6 @@ button {
   grid-gap: 5px;
   grid-template-areas:
     "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
-    "label input"
     "button button";
 }
 
