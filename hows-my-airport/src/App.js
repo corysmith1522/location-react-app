@@ -46,6 +46,14 @@ function App() {
       <Route path="/create">
         <Create />
       </Route>
+      <footer>
+        <h4>
+          Information courtesy of{" "}
+          <a href="https://www.bts.gov/" className="footer-link">
+            Bureau of Transportation Statistics
+          </a>
+        </h4>
+      </footer>
     </div>
   );
 }

@@ -4,7 +4,7 @@
 
 body::before {
   content: "";
-  background-image: url("https://bit.ly/3nOjA2b");
+  background-image: url("./Clouds-Background-HD.jpg");
   background-size: auto;
   position: absolute;
   top: 0px;
@@ -38,4 +38,29 @@ nav {
   position: relative;
   color: #ffffff;
   text-shadow: 2px 1px #000000;
+}
+
+footer {
+  margin: 20px auto;
+}
+
+h4 {
+  background-color: #28334a;
+  color: #ffffff;
+  font-stretch: expanded;
+  margin: 0 auto;
+  padding: 2px;
+  width: 100%;
+  height: auto;
+  border-style: groove;
+  border-color: #ffa500;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-shadow: 2px 1px #b87878;
 }
