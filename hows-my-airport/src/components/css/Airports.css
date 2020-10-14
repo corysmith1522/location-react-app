@@ -1,0 +1,45 @@
+.pics {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .layout {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: 10px auto;
+    grid-gap: 10px;
+    grid-template-areas:
+      "data pics"
+      "data pics"
+      "data pics"
+      "data pics"
+      "data pics"
+      "data pics";
+  }
+
+  .list {
+    grid-area: data;
+    border-right: 5px dashed #28334a;
+  }
+
+  .pics {
+    grid-area: pics;
+    display: flex;
+    height: 100%;
+    vertical-align: top;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    transition: transform 0.2s;
+    border-style: groove;
+    border-color: #ffa500;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+}
