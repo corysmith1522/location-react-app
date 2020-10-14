@@ -7,6 +7,7 @@ function Airports() {
   const coolIMG = 'https://bit.ly/33UFgC7'
   const airportGate = 'https://bit.ly/34VWka5'
   const planeGate = 'https://bit.ly/312iwhF'
+  const floorshot = 'https://bit.ly/375DDTT'
 
   return (
     <div className="layout">
@@ -18,6 +19,7 @@ function Airports() {
         <img src={coolIMG} alt="airplane" />
         <img src={airportGate} alt="airport-gate" />
         <img src={planeGate} alt="airplane-gate" />
+        <img src={floorshot} alt="airport-concourse" />
       </div>
     </div>
   )

@@ -9,13 +9,7 @@
     width: 100%;
     margin: 10px auto;
     grid-gap: 10px;
-    grid-template-areas:
-      "data pics"
-      "data pics"
-      "data pics"
-      "data pics"
-      "data pics"
-      "data pics";
+    grid-template-areas: "data pics";
   }
 
   .list {

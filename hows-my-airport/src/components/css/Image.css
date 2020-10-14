@@ -1,5 +1,5 @@
 img {
-  width: 30%;
+  max-width: 75%;
   height: auto;
   margin: 20px;
   transition: transform 0.2s;
@@ -22,7 +22,7 @@ img:hover {
 @media screen and (min-width: 768px) {
   .airplane {
     display: inline-block;
-    width: 28%;
+    max-width: 75%;
     height: auto;
   }
 }
