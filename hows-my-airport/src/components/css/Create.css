@@ -57,3 +57,15 @@ button {
   color: #ffffff;
   box-shadow: 5px 5px 8px #888888;
 }
+
+.messageHide {
+  display: none;
+}
+
+.messageDisplay {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #28334a;
+  margin: 10px;
+  font-size: 120%;
+  text-shadow: 2px 1px #e3d8d8;
+}

@@ -12,6 +12,12 @@ function Create() {
   const [review, setReview] = useState('');
   const [website, setWebsite] = useState('');
 
+  const [submitted, setSubmitted] = useState(false)
+
+  const toggleMessage = () => {
+    submitted ? setSubmitted(false) : setSubmitted(true)
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const fields = {
@@ -43,34 +49,37 @@ function Create() {
   
   
   return (
-    <div className="create-grid">
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="airport">Airport Name: </label>
-        <input type="text" value={airport} onChange={(e) => setAirport(e.target.value)} />
-        <br />
-        <label htmlFor="abbreviation">IATA Abbreviation: </label>
-        <input type="text" value={abbreviation} onChange={(e) => setAbbreviation(e.target.value)}/>
-        <br />
-        <label htmlFor="airlines">Airlines: </label>
-        <textarea className="big-text" rows="10" cols="20" value={airlines} onChange={(e) => setAirlines(e.target.value)}/>
-        <br />
-        <label htmlFor="flights">Top 10 Flight Destinations: </label>
-        <textarea className="big-text" rows="10" cols="20" value={flights} onChange={(e) => setFlights(e.target.value)}/>
-        <br />
-        <label htmlFor="restaurants">Restaurants: </label>
-        <textarea className="big-text" rows="10" cols="20" value={restaurants} onChange={(e) => setRestaurants(e.target.value)}/>
-        <br />
-        <label htmlFor="amenities">Amenities: </label>
-        <textarea className="big-text" rows="10" cols="20" value={amenities} onChange={(e) => setAmenities(e.target.value)}/>
-        <br />
-        <label htmlFor="review">Review: </label>
-        <textarea className="big-text" rows="10" cols="20" value={review} onChange={(e) => setReview(e.target.value)}/>
-        <br />
-        <label htmlFor="website">Website: </label>
-        <input type="text" value={website} onChange={(e) => setWebsite(e.target.value)}/>
-        <br />
-        <button type="submit" className="post-to-table">SUBMIT</button>
-      </form>
+    <div>
+      <h2 className={submitted? "messageDisplay" :  "messageHide"}>Thank You For Contributing!</h2>
+      <div className="create-grid">
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="airport">Airport Name: </label>
+          <input type="text" value={airport} onChange={(e) => setAirport(e.target.value)} />
+          <br />
+          <label htmlFor="abbreviation">IATA Abbreviation: </label>
+          <input type="text" value={abbreviation} onChange={(e) => setAbbreviation(e.target.value)}/>
+          <br />
+          <label htmlFor="airlines">Airlines: </label>
+          <textarea className="big-text" rows="10" cols="20" value={airlines} onChange={(e) => setAirlines(e.target.value)}/>
+          <br />
+          <label htmlFor="flights">Top 10 Flight Destinations: </label>
+          <textarea className="big-text" rows="10" cols="20" value={flights} onChange={(e) => setFlights(e.target.value)}/>
+          <br />
+          <label htmlFor="restaurants">Restaurants: </label>
+          <textarea className="big-text" rows="10" cols="20" value={restaurants} onChange={(e) => setRestaurants(e.target.value)}/>
+          <br />
+          <label htmlFor="amenities">Amenities: </label>
+          <textarea className="big-text" rows="10" cols="20" value={amenities} onChange={(e) => setAmenities(e.target.value)}/>
+          <br />
+          <label htmlFor="review">Review: </label>
+          <textarea className="big-text" rows="10" cols="20" value={review} onChange={(e) => setReview(e.target.value)}/>
+          <br />
+          <label htmlFor="website">Website: </label>
+          <input type="text" value={website} onChange={(e) => setWebsite(e.target.value)}/>
+          <br />
+          <button type="submit" className="post-to-table" onClick={() => toggleMessage()}>SUBMIT</button>
+        </form>
+      </div>
     </div>
   )
 }
