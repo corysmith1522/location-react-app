@@ -44,3 +44,13 @@ button {
   grid-area: button;
   font-family: "PT Sans Narrow", sans-serif;
 }
+
+.post-to-table {
+  background-color: #f4af11;
+  border-radius: 50px 30px;
+}
+
+.post-to-table:hover {
+  color: #ffffff;
+  box-shadow: 5px 5px 8px #888888;
+}

@@ -69,7 +69,7 @@ function Create() {
         <label htmlFor="website">Website: </label>
         <input type="text" value={website} onChange={(e) => setWebsite(e.target.value)}/>
         <br />
-        <button type="submit">SUBMIT</button>
+        <button type="submit" className="post-to-table">SUBMIT</button>
       </form>
     </div>
   )
