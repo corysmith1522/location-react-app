@@ -26,6 +26,9 @@ label {
   grid-area: label;
   font-family: "PT Sans Narrow", sans-serif;
   margin: 2px;
+  color: #28334a;
+  font-size: 120%;
+  text-shadow: 2px 1px #e3d8d8;
 }
 
 input {

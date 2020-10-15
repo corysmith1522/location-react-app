@@ -2,6 +2,29 @@
   display: none;
 }
 
+.important-links {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #28334a;
+  margin: 10px;
+  font-size: 120%;
+  text-shadow: 2px 1px #e3d8d8;
+}
+
+.hyperlinks {
+  display: block;
+}
+
+.other-links {
+  margin: 5px;
+  text-decoration: none;
+  text-shadow: 2px 1px #e3d8d8;
+}
+
+.other-links:hover {
+  color: #ffffff;
+  text-shadow: 2px 1px #000000;
+}
+
 @media screen and (min-width: 768px) {
   .layout {
     display: grid;
