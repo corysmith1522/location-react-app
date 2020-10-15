@@ -14,6 +14,7 @@ function Create() {
 
   const [submitted, setSubmitted] = useState(false)
 
+  // found useful youtube video to learn toggle function: https://www.youtube.com/watch?v=SEecAgV1-Ro
   const toggleMessage = () => {
     submitted ? setSubmitted(false) : setSubmitted(true)
   }

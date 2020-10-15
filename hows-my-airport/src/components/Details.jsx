@@ -4,6 +4,8 @@ import "./css/Details.css"
 function Details (props) {
   const [clicked, setClicked] = useState(false)
 
+
+  // found useful youtube video to help learn toggle function: https://www.youtube.com/watch?v=SEecAgV1-Ro
   const toggleData = () => {
     clicked ? setClicked(false) : setClicked(true);
   }
