@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+/* Useful online resource for how I did my background image: https://coder-coder.com/background-image-opacity/ */
+
 body::before {
   content: "";
   background-image: url("./Clouds-Background-HD.jpg");
